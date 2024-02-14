@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <script>
+      function beforePrintHandler(){
+          alert('Preparing to print...');
+      }
+      function afterPrintHandler(){
+          console.log('After printing...');
+          alert('Printing Start');
+      }
+      window.onbeforeinput = beforePrintHandler
+      window.afterPrintHandler = afterPrintHandler
+  </script>
+    <link rel="stylesheet" href="css.css">
+    
+</head>
+<body>
+    <div class="topnav">
+        <a class="active" href="index.html">Home</a>
+        <a href="skill.html">Skill</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="Recentproj.html" class="split">Recent Project</a>
+      </div>
+<h1 class="info">
+    Skills and Experience
+</h1>
+<p style="font-weight: bold;">
+  Skills
+</p>
+<div class="skill">
+  <label>HTML:&nbsp;50%</label>
+  <div class="progress">
+    <div class="progress-bar" style="width: 50%;"></div>
+  </div>
+</div>
+
+<div class="skill">
+  <label>CSS:&nbsp;50%</label>
+  <div class="progress">
+    <div class="progress-bar" style="width: 50%;"></div>
+  </div>
+</div>
+
+<div class="skill">
+  <label>JavaScript:&nbsp;50%</label>
+  <div class="progress">
+    <div class="progress-bar" style="width: 50%;"></div>
+  </div>
+  <hr>
+
+  <div class="edit">
+    <label>Photo&nbsp;Editing:&nbsp;&nbsp;100%</label>
+    <div class="progress">
+      <div class="progress-bar" style="width: 100%;"></div>
+    </div>
+  </div><br>
+
+    <div class="edit">
+    <label>Video&nbsp;Editing:&nbsp;&nbsp;100%</label>
+    <div class="progress">
+      <div class="progress-bar" style="width: 100%;"></div>
+    </div>
+  </div>
+
+ <div>
+  <p class="info" style="padding: 20px;">
+    Work Experience
+  </p>
+  <p style="font-weight: bold;">
+    Work
+  </p>
+  <p>
+    <ul class="aboutme">
+      <li>Barista/Cashier</li>
+      <li>6 months</li>
+      <li>Kofee Manila - Stop & Go </li>
+      <li>Brgy. San Antonio 2, San Pablo City, Laguna</li>
+    </ul>
+  </p>
+ </div>
+
+ <button onclick="window.print()">Print as PDF</button>
+</body>
+</html>
+
