@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <script>
+        function beforePrintHandler(){
+            alert('Preparing to print...');
+        }
+        function afterPrintHandler(){
+            console.log('After printing...');
+            alert('Printing Start');
+        }
+        window.onbeforeinput = beforePrintHandler
+        window.afterPrintHandler = afterPrintHandler
+    </script>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <div class="topnav">
+        <a class="active" href="index.html">Home</a>
+        <a href="skill.html">Skill</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="Recentproj.html" class="split">Recent Project</a>
+    </div>
+    <div>
+      <P class="proj">
+        Projects
+      </P>
+    </div>
+      <div class="polaroid">
+        <img src="portfolio.jpg" alt="My Portfolio" style="width:100%">
+        <div class="container">
+        <p>Personal Portfolio</p>
+        </div>
+        <div>
+          <center>
+          <video width="500" height="500" controls style="background-color: aquamarine;">
+            <source src="unavailable.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </center>
+        <div class="container">
+          <p>Video Editing</p>
+        </div>
+      </div>
+   
+</body>
+</html>
