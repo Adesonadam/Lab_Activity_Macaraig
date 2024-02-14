@@ -1,0 +1,235 @@
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #9DBC98;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #1B4242;
+    color: white;
+  }
+  
+  .topnav a.split {
+    float: right;
+    background-color: #1B4242;
+    color: white;
+  }
+  .image{
+    height: 250px ; 
+    width: auto; 
+    float: right; 
+    padding: 20px;
+    margin-top: 20px;
+    margin-right: 20px; 
+    align-items: self-end;
+  }
+  
+  .aboutme {
+    border: white;
+    color: #1B4242;
+    border-radius: 5px;
+    background-color: #E1F0DA;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 20px;
+    margin-right: 20px;
+    padding: 5px;
+    font-size: larger;
+  }
+  
+  .skill {
+    margin-bottom: 10px;
+    padding-top: 5px;
+    
+  }
+  
+  .skill label {
+    display: inline-block;
+    width: 100px;
+    font-weight: bold;
+  }
+  .edit {
+    margin-bottom: 10px;
+    padding-top: 5px;
+    
+  }
+  
+  .edit label {
+    text-align: justify;
+    display: inline-block;
+    width: 100px;
+    font-weight: bold;
+  }
+  
+  .progress {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 20px;
+    width: 200px;
+    margin-left: 10px;
+  }
+  
+  .progress-bar {
+    background-color: #007bff;
+    border-radius: 5px;
+    height: 100%;
+    width: 0;
+    transition: width 0.3s ease;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .topnav a {
+        float: none;
+        display: block;
+        text-align: center;
+    }
+  
+    .topnav a.split {
+        float: none;
+        display: block;
+        text-align: center;
+    }
+  
+    .aboutme {
+        margin: 20px;
+        margin-right: 20px;
+    }
+  
+    .img {
+        float: none;
+        display: block;
+        margin: 0 auto;
+        padding: 20px 0;
+    }
+  }
+  
+  .info {
+    background-color: #638889;
+    border-style: dashed;
+    border-color: #6499E9;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  ul li {
+    margin-bottom: 5px;
+  }
+  
+  .aside {
+    width: 15%;
+    padding: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    float: right;
+    font-style: italic;
+    background-color: lightgray;
+  }
+
+  .contact-info {
+    margin-top: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    text-align: center;
+    background-color: #1B4242;
+    border-radius: 20px;
+    color: white;
+    padding: 50px;
+
+}
+
+.contact-info i {
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 5px;
+    
+}
+div.polaroid {
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 50px;
+  margin-top: 25px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+  font-weight: bold;
+  
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 8px; 
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 12px;
+  resize: vertical;
+  font-size: 14px; 
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 10px 18px; 
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px; 
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 16px;
+}
+.proj{
+  padding: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+  background-color: #04AA6D;
+  color: #1B4242;
+  text-align: center;
+  border-radius: 10px;
+  font-weight: bold;
+}

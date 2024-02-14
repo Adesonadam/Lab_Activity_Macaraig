@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <script>
+        function beforePrintHandler(){
+            alert('Preparing to print...');
+        }
+        function afterPrintHandler(){
+            console.log('After printing...');
+            alert('Printing Start');
+        }
+        window.onbeforeinput = beforePrintHandler
+        window.afterPrintHandler = afterPrintHandler
+    </script>
+    <link rel="stylesheet" href="css.css">
+    
+
+</head>
+<body>
+    <div class="topnav">
+        <a class="active" href="index.html">Home</a>
+        <a href="skill.html">Skill</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="Recentproj.html" class="split">Recent Project</a>
+    </div>
+    <img src="123.jpg" alt="Me" class="image">
+    
+    <div class="aboutme">
+        <h1>Macaraig, Adeson Adam M.</h1>
+        <p>
+            Welcome to Adeson Adam Macaraig's Portfolio!<br><br>
+            &nbsp; &nbsp; I'm Adeson Adam Macaraig, a passionate creative professional with a focus on design and development. This portfolio is a glimpse into my journey, showcasing my experiences and achievements in the realm of digital innovation.
+            With a blend of technical expertise and artistic flair, I aim to push boundaries and create meaningful experiences. Through my work, I strive to bring ideas to life and make a positive impact on the world around me.
+            In this portfolio, you'll discover a handpicked selection of my projects, each representing my commitment to craftsmanship and innovation. 
+            <br><br>
+            <aside class="aside">
+                <p>"Never let Someone's opinion becomes Your Reality"</p>
+            </aside>
+            &nbsp; &nbsp;From user interfaces to web applications, each piece reflects my dedication to excellence and my pursuit of mastery.
+            As you navigate through my portfolio, I invite you to immerse yourself in my world, exploring the stories behind each creation. Whether you're a fellow designer, developer, or simply curious about the possibilities of digital design, I hope my work inspires and ignites your imagination.
+            Thank you for visiting, and I'm excited to share my journey with you! <br>
+        </p>
+        
+        
+        <div class="info">
+            <p>Personal Information</p>
+        </div>
+        <p>
+            <ul>
+                <li>Address: &nbsp;&nbsp;&nbsp;Brgy. San Antonio 2, San Pablo City, Laguna</li>
+                <li>Age :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;20 years old</li>
+                <li>Hair Color: Black</li>
+                <li>Eyes Color: Black</li>
+                <li>Skin Color: Brown</li>
+            </ul>
+        </p>
+        <div class="info">
+            <p>Educational Attainment</p>
+        </div>
+        <p>
+            <ul>
+                <li><h4>College</h4></li>
+                <li>2021-2023</li>
+                <li>Laguna State Polytechnic University</li>
+                <li>Brgy. Del Remedio, San Pablo City, Laguna </li>
+                
+                <li><h4> Senior High School</h4></li>
+                <li>2019-2021</li>
+                <li>Recto Memorial National High School</li>
+                <li>Brgy. Quipot, Tiaong Quezon </li>
+                
+                <li><h4> Junior High School</h4></li>
+                <li>2015-2019</li>
+                <li>Recto Memorial National High School</li>
+                <li>Brgy. Quipot, Tiaong Quezon </li>
+
+                <li><h4> Elementary</h4></li>
+                <li>2009-2015</li>
+                <li>San Antonio II Elementary School</li>
+                <li>Brgy. San Antonio 2, San Pablo City, Laguna</li>
+            </ul>
+        </p>
+    </div>
+    <button onclick="window.print()">Print as PDF</button>
+</body>
+</html>
